@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec649416-6b6f-465e-ab4d-aac078f4b531" name="Default Changelist" comment="多线程并发学习" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/concurrent$Thread03.ic" NAME="Thread03 Coverage Results" MODIFIED="1614763705778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.concurrent.classtset.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/concurrent$ConcurrentApplicationTests_contextLoads.ic" NAME="ConcurrentApplicationTests.contextLoads Coverage Results" MODIFIED="1622010941320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.concurrent.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="concurrent" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Thread()</find>
+      <find>run</find>
+      <find>run()</find>
+      <find>wait</find>
+      <find>junit</find>
+      <find>put</find>
+      <find>base</find>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test7.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test19.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test20.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test22.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test23.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test24.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test30.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test31.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test26.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test27.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test28.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test32.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test33.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test34.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test35.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test36.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test29.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test37.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test38.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test21.java" />
+        <option value="$PROJECT_DIR$/../../../../资料/短url/url-shortener/sevice_java/src/main/java/com/ziv/urlshortener/controller/UrlShortenerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test39.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test40.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test42.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test41.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test43.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/ConcurrentApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/AccountUnsafe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/concurrent/ConcurrentApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/concurrent/test4/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/concurrent/test4/Test1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/UnsafeAccessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrent/test7/DataConctPool.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="concurrent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="concurrent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="187" />
+    <option name="y" value="-3" />
+    <option name="width" value="984" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1tZUlsxqAIWeyOec1pWZe5cYuVC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/.gitignore" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\idea\code\concurrent\src\main\java\com\concurrent\test6" />
+      <recent name="D:\Program Files\idea\code\concurrent\src\main\java\com\concurrent\test4" />
+      <recent name="D:\Program Files\idea\code\concurrent\src\main\java\com\concurrent\classtset" />
+      <recent name="D:\Program Files\idea\code\concurrent\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.concurrent.test4" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.concurrent.test4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.concurrent.test6" />
+      <recent name="com.concurrent.test4" />
+      <recent name="com.concurrent" />
+      <recent name="com.concurrent.classtset" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyBenchmark01">
+    <configuration name="DataConctPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.test7.DataConctPool" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.test7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBenchmark01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.tset3.MyBenchmark01" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.tset3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.test6.Test2" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.test6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.test6.Test6" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.test6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.test6.Test8" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.test6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="concurrent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.concurrent.ConcurrentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DataConctPool" />
+      <item itemvalue="Application.MyBenchmark01" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Test6" />
+      <item itemvalue="Application.Test8" />
+      <item itemvalue="Spring Boot.ConcurrentApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test8" />
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.MyBenchmark01" />
+        <item itemvalue="Application.DataConctPool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\LHBGXX\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec649416-6b6f-465e-ab4d-aac078f4b531" name="Default Changelist" comment="" />
+      <created>1614656327424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614656327424</updated>
+      <workItem from="1614656331032" duration="74647000" />
+      <workItem from="1615709374645" duration="6775000" />
+      <workItem from="1615902225252" duration="9941000" />
+      <workItem from="1616721388952" duration="22588000" />
+      <workItem from="1619761796808" duration="799000" />
+      <workItem from="1620307702172" duration="107000" />
+      <workItem from="1620389046119" duration="14994000" />
+      <workItem from="1621069140488" duration="1797000" />
+      <workItem from="1621070987385" duration="800000" />
+      <workItem from="1621148490688" duration="6882000" />
+      <workItem from="1621515019856" duration="10558000" />
+      <workItem from="1621863904517" duration="4223000" />
+      <workItem from="1622010864738" duration="42514000" />
+      <workItem from="1622551215183" duration="1263000" />
+      <workItem from="1622552509531" duration="46000" />
+      <workItem from="1622552592850" duration="3444000" />
+      <workItem from="1622873856237" duration="209000" />
+      <workItem from="1622879033316" duration="4174000" />
+      <workItem from="1622976273186" duration="1100000" />
+      <workItem from="1622977406528" duration="218000" />
+      <workItem from="1622977645807" duration="1046000" />
+      <workItem from="1622978722129" duration="961000" />
+      <workItem from="1622986444284" duration="3573000" />
+      <workItem from="1622990072469" duration="6286000" />
+      <workItem from="1623068599139" duration="179000" />
+      <workItem from="1623403463584" duration="3351000" />
+      <workItem from="1623898852216" duration="690000" />
+      <workItem from="1623932416242" duration="1041000" />
+    </task>
+    <task id="LOCAL-00001" summary="多线程并发">
+      <created>1622879486083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622879486083</updated>
+    </task>
+    <task id="LOCAL-00002" summary="多线程并发学习">
+      <created>1623405079504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623405079504</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConcurrentApplicationTests_contextLoads - 2021.05.26 at 14h 35m 30s.xml">
+      <configuration name="ConcurrentApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConcurrentApplicationTests_contextLoads - 2021.05.26 at 14h 35m 48s.xml">
+      <configuration name="ConcurrentApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 14h 37m 43s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 14h 38m 38s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 15h 33m 37s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 15h 37m 16s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 15h 37m 50s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 15h 39m 17s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_test - 2021.05.26 at 16h 12m 11s.xml">
+      <configuration name="Test1.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="205761000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info anchor="top" id="Favorites" order="0" sideWeight="0.5012531" side_tool="true" weight="0.23272727" />
+      <window_info id="Structure" order="0" sideWeight="0.5254545" side_tool="true" weight="0.24656427" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info active="true" auto_hide="true" content_ui="combo" x="242" y="119" width="345" height="445" id="Project" order="3" sideWeight="0.47454545" visible="true" weight="0.24656427" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32909092" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45818183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5763636" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32545453" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32545453" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24545455" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.26" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.24909091" />
+      <window_info anchor="bottom" id="Sequence" order="13" weight="0.39818183" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" weight="0.32983023" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32983023" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32983023" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.20937753" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5012531" side_tool="true" weight="0.23282135" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33566433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6451049" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.50524473" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32867134" />
+      <window_info anchor="bottom" id="Sequence" order="13" weight="0.27972028" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" weight="0.32983023" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32983023" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="多线程并发&#10;" />
+    <MESSAGE value="多线程并发" />
+    <MESSAGE value="多线程并发学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程并发学习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrent/tset3/Thread03.java</url>
+          <line>13</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrent/tset3/Thread03.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test21.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1422">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../资料/短url/url-shortener/sevice_java/src/main/java/com/ziv/urlshortener/controller/UrlShortenerController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="1" selection-start-line="6" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test41.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test4/Test43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="520" column="17" selection-start-line="520" selection-start-column="17" selection-end-line="520" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/ConcurrentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test5/Singleton5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/concurrent/ConcurrentApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/concurrent/test4/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="841" column="11" selection-start-line="841" selection-start-column="8" selection-end-line="841" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/jre/lib/rt.jar!/java/util/concurrent/atomic/LongAdder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/UnsafeAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="369" column="21" selection-start-line="369" selection-start-column="21" selection-end-line="369" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/function/IntUnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="68" lean-forward="true" selection-start-line="7" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="13" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="72" lean-forward="true" selection-start-line="17" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="304" column="8" selection-start-line="304" selection-start-column="8" selection-end-line="304" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/function/LongBinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/concurrent/atomic/Striped64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="288" column="28" selection-start-line="288" selection-start-column="24" selection-end-line="288" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/concurrent/atomic/LongAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="812" column="35" selection-start-line="812" selection-start-column="31" selection-end-line="812" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="591" column="11" selection-start-line="591" selection-start-column="11" selection-end-line="591" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="285" column="36" selection-start-line="285" selection-start-column="36" selection-end-line="285" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../JavaSF/jdk1.8.0_25/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="91" column="11" selection-end-line="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test6/Test8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrent/test7/DataConctPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="360" column="13" lean-forward="true" selection-start-line="360" selection-start-column="13" selection-end-line="360" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#8418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>concurrent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
