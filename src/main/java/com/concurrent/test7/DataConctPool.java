@@ -17,16 +17,15 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
  * @date 2020/06/01
  */
 
-@Slf4j(topic = "mc.DataConctPool")
+@Slf4j(topic = "c.DataConctPool")
 public class DataConctPool {
-    // 1. 连接池大小
+    //2. 连接池大小
     private final int poolSize;
-    // 2. 连接对象数组
+    //3. 连接对象数组
     private Connection[] connections;
-    // 3. 连接状态数组 0 表示空闲， 1 表示繁忙
+    //4. 连接状态数组 0 表示空闲， 1 表示繁忙
     private AtomicIntegerArray states;
-
-    // 4. 构造方法初始化
+    //5. 构造方法初始化
     public DataConctPool(int poolSize) {
         this.poolSize = poolSize;
         this.connections = new Connection[poolSize];
@@ -43,7 +42,7 @@ public class DataConctPool {
                 // 获取空闲连接
                 if (states.get(i) == 0) {
                     if (states.compareAndSet(i, 0, 1)) {
-                        log.debug("borrow {}", connections[i]);
+                        log.debug("borrow {}", "连接"+(i+1));
                         return connections[i];
                     }
                 }
@@ -66,7 +65,7 @@ public class DataConctPool {
             if (connections[i] == conn) {
                 states.set(i, 0);
                 synchronized (this) {
-                    log.debug("free {}", conn);
+                    log.debug("free {}", "连接"+(i+1));
                     this.notifyAll();
                 }
                 break;
