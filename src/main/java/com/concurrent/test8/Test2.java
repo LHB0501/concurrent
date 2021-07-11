@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Test2 {
     public static void main(String[] args) {
         //创建固定大小的线程池
-        //ExecutorService executorService = Executors.newFixedThreadPool(2);
+        //  ExecutorService executorService = Executors.newFixedThreadPool(2);
         //创建固定大小的线程池 带名字
         ExecutorService executorService = Executors.newFixedThreadPool(2, new ThreadFactory() {
             private final AtomicInteger atomicInteger = new AtomicInteger(1);

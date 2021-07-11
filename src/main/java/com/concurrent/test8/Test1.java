@@ -1,6 +1,5 @@
 package com.concurrent.test8;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayDeque;
@@ -18,17 +17,17 @@ import java.util.concurrent.locks.ReentrantLock;
 @Slf4j(topic = "c.Test1")
 public class Test1 {
     public static void main(String[] args) {
-        ThreadPool threadPool = new ThreadPool(1,1000,TimeUnit.MILLISECONDS,1,(queue,task)->{
+        ThreadPool threadPool = new ThreadPool(1, 1000, TimeUnit.MILLISECONDS, 1, (queue, task) -> {
             //queue.put(task);//1.死等
             //queue.put(task,500,TimeUnit.MILLISECONDS);//2.带超时的等待
             //log.debug("放弃{}",task);//3.主线程放弃任务的执行，
             //throw new RuntimeException("任务执行失败！"+task);//4.抛出异常
             task.run(); //5.让调用者自己执行
         });
-        for (int i=0;i < 4;i++){
+        for (int i = 0; i < 4; i++) {
             int j = i;
-            threadPool.execute(()->{
-                log.debug("{}",j);
+            threadPool.execute(() -> {
+                log.debug("{}", j);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
@@ -38,6 +37,7 @@ public class Test1 {
         }
     }
 }
+
 @Slf4j(topic = "c.ThreadPool")
 class ThreadPool {
     //任务队列
@@ -53,9 +53,9 @@ class ThreadPool {
     //时间单位
     private TimeUnit timeUnit;
     //拒绝策略
-    private  RejectPolicy<Runnable> rejectPolict;
+    private RejectPolicy<Runnable> rejectPolict;
 
-    public ThreadPool(int coresize, long timeOut, TimeUnit timeUnit, int queuecapcity,RejectPolicy<Runnable> rejectPolict) {
+    public ThreadPool(int coresize, long timeOut, TimeUnit timeUnit, int queuecapcity, RejectPolicy<Runnable> rejectPolict) {
         this.coresize = coresize;
         this.timeOut = timeOut;
         this.timeUnit = timeUnit;
@@ -70,7 +70,7 @@ class ThreadPool {
         synchronized (workes) {
             if (workes.size() < coresize) {
                 worker worker = new worker(task);
-                log.debug("新增worker{} ,{}",worker,task);
+                log.debug("新增worker{} ,{}", worker, task);
                 workes.add(worker);
                 worker.start();
             } else {
@@ -80,7 +80,7 @@ class ThreadPool {
                 //3.主线程放弃任务的执行，
                 //4.抛出异常
                 //5.让调用者自己执行
-                taskQueue.tryPut(rejectPolict,task);
+                taskQueue.tryPut(rejectPolict, task);
             }
         }
     }
@@ -100,9 +100,9 @@ class ThreadPool {
         @Override
         public void run() {
             //while (task != null || (task = taskQueue.get()) != null) {
-            while (task != null || (task = taskQueue.get(timeOut,timeUnit)) != null) {
+            while (task != null || (task = taskQueue.get(timeOut, timeUnit)) != null) {
                 try {
-                    log.debug("正在执行任...{}",task);
+                    log.debug("正在执行任...{}", task);
                     task.run();
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -110,31 +110,33 @@ class ThreadPool {
                     task = null;
                 }
             }
-            synchronized (workes){
-                log.debug("任务被移除...{}",this);
+            synchronized (workes) {
+                log.debug("任务被移除...{}", this);
                 workes.remove(this);
             }
         }
 
     }
 }
+
 //拒绝策略
 @FunctionalInterface
-interface RejectPolicy<T>{
-    void reject(BlockingQueue<T> queue,T task);
+interface RejectPolicy<T> {
+    void reject(BlockingQueue<T> queue, T task);
 }
+
 @Slf4j(topic = "c.BlockingQueue")
 class BlockingQueue<T> {
     //任务队列
     private Deque<T> queue = new ArrayDeque<>();
     //锁
     private ReentrantLock lock = new ReentrantLock();
-    //生产者条件变量
-    private Condition fullWaitSet = lock.newCondition();
-    //生产者条件变量
-    private Condition empWaitSet = lock.newCondition();
     //队列容量
     private int capcity;
+    //生产者条件变量
+    private Condition fullWaitSet = lock.newCondition();
+    //消费者条件变量
+    private Condition empWaitSet = lock.newCondition();
 
     public BlockingQueue(int capcity) {
         this.capcity = capcity;
@@ -144,7 +146,7 @@ class BlockingQueue<T> {
     public T get(long timeOut, TimeUnit unit) {
         lock.lock();
         try {
-            //将超时时间同意转换成纳秒
+            //将超时时间统一转换成纳秒
             long nanos = unit.toNanos(timeOut);
             while (queue.isEmpty()) {
                 try {
@@ -190,13 +192,13 @@ class BlockingQueue<T> {
         try {
             while (queue.size() == capcity) {
                 try {
-                    log.debug("等待插入任务队列 ,{}",t);
+                    log.debug("等待插入任务队列 ,{}", t);
                     fullWaitSet.await();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
-            log.debug("插入任务队列 ,{}",t);
+            log.debug("插入任务队列 ,{}", t);
             queue.addLast(t);
             empWaitSet.signal();
         } finally {
@@ -206,14 +208,14 @@ class BlockingQueue<T> {
     }
 
     //带超时的阻塞添加
-    public boolean put(T t,long timeOut,TimeUnit timeUnit) {
+    public boolean put(T t, long timeOut, TimeUnit timeUnit) {
         lock.lock();
         try {
             long nanos = timeUnit.toNanos(timeOut);
             while (queue.size() == capcity) {
                 try {
-                    log.debug("等待插入任务队列 ,{}",t);
-                    if (nanos <= 0){
+                    log.debug("等待插入任务队列 ,{}", t);
+                    if (nanos <= 0) {
                         return false;
                     }
                     fullWaitSet.await();
@@ -221,7 +223,7 @@ class BlockingQueue<T> {
                     e.printStackTrace();
                 }
             }
-            log.debug("插入任务队列 ,{}",t);
+            log.debug("插入任务队列 ,{}", t);
             queue.addLast(t);
             empWaitSet.signal();
             return true;
@@ -240,13 +242,13 @@ class BlockingQueue<T> {
         }
     }
 
-    public void tryPut(RejectPolicy<T> rejectPolicy,T t){
+    public void tryPut(RejectPolicy<T> rejectPolicy, T t) {
         lock.lock();
         try {
-            if (queue.size() == capcity){
-                rejectPolicy.reject(this,t);
-            }else {
-                log.debug("插入任务队列 ,{}",t);
+            if (queue.size() == capcity) {
+                rejectPolicy.reject(this, t);
+            } else {
+                log.debug("插入任务队列 ,{}", t);
                 queue.addLast(t);
                 empWaitSet.signal();
             }
